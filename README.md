@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Evolving Fuzzy System for Real-Time Monitoring and Adaptation: Novelty Detection and Cluster Updating
+> The aim of the project is to develop a fuzzy logic algorithm that receives real-time information from a wastewater treatment plant (WWTP) and provides a reference value for the Multi-layer Stream Mapping (MSM) performance evaluation method.
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
@@ -17,69 +17,39 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
+- This work is being carried out within the scope of the PhD programme in Electrical Engineering and Intelligent Systems at the University of Coimbra in Portugal..
+- The programme aims to receive samples of physical and chemical characteristics, in real time, from a wastewater treatment plant, represented by the BSM2 simulator, and provide reference values for the Multi-layer Stream Mapping (MSM) performance evaluation system.
+- The fuzzy system starts the process with just one cluster, represented by the first sample that arrives in the model. When new samples arrive, they are processed and if they represent something new in relation to the existing cluster, new clusters are created. If they don't represent anything new, they are sent back to the existing cluster.
+- As samples are constantly arriving, they are processed, used to create or update the clusters, and then discarded. 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- Python - version 3.8.8
+- Benchmark Simulation Model no. 2 (BSM2)
 
-
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
-
-
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
+* To run the case study script, all you need is Python and the Spyder editor installed.
+* To obtain the used datasets, install and run the BSM2 simulator. More details about the installation and operation of BSM2 can be found here https://github.com/wwtmodels and here https://wwtmodels.pubpub.org.
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
+The project is in progress.
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+* This research is supported by Fundação para a Ciência e a Tecnologia (FCT) under the grant ref. 2023.01009.BD.
+* Institute of Systems and Robotic - ISR 
+* DEEC - University of Coimbra - Portugal.
+
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Rodrigo Salles. Email: engenharia.salles@gmail.com 
+
+...feel free to contact me!
 
 
 <!-- Optional -->
