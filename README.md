@@ -17,7 +17,7 @@
 
 
 ## General Information
-- This work is being carried out within the scope of the PhD programme in Electrical Engineering and Intelligent Systems at the University of Coimbra in Portugal..
+- This work is being carried out within the scope of the PhD programme in Electrical Engineering and Intelligent Systems at the University of Coimbra in Portugal.
 - The programme aims to receive samples of physical and chemical characteristics, in real time, from a wastewater treatment plant, represented by the BSM2 simulator, and provide reference values for the Multi-layer Stream Mapping (MSM) performance evaluation system.
 - The fuzzy system starts the process with just one cluster, represented by the first sample that arrives in the model. When new samples arrive, they are processed and if they represent something new in relation to the existing cluster, new clusters are created. If they don't represent anything new, they are sent back to the existing cluster.
 - As samples are constantly arriving, they are processed, used to create or update the clusters, and then discarded. 
