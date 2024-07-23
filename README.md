@@ -1,6 +1,6 @@
 # Evolving Fuzzy System for Real-Time Monitoring and Adaptation: Novelty Detection and Cluster Updating
 > The aim of the project is to develop a fuzzy logic algorithm that receives real-time information from a wastewater treatment plant (WWTP) and provides a reference value for the Multi-layer Stream Mapping (MSM) performance evaluation method.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+
 
 ## Table of Contents
 * [General Info](#general-information)
