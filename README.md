@@ -31,7 +31,7 @@
 
 
 ## Setup
-* To run the case study script, all you need is Python and the Spyder editor installed.
+* To run the case study script, all you need is Python and the Spyder IDE (integrated development environment) installed.
 * To obtain the used datasets, install and run the BSM2 simulator. More details about the installation and operation of BSM2 can be found here https://github.com/wwtmodels and here https://wwtmodels.pubpub.org.
 
 
